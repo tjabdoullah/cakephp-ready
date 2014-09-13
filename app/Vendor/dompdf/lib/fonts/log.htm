@@ -1,0 +1,96 @@
+<span style='color: #000'>223 frames</span>	<span style='color: #900'>59,392 KB</span>	<span style='color: #090'>1,422.95 ms</span>	<span style='color: #009' title='Quirksmode'><span style='color: #c00'>ON</span></span><br /><pre class="cake-error"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53d2d78b51681-trace').style.display = (document.getElementById('cakeErr53d2d78b51681-trace').style.display == 'none' ? '' : 'none');"><b>Warning</b> (2)</a>: Illegal string offset 'hex' [<b>APP\Vendor\dompdf\include\style.cls.php</b>, line <b>1418</b>]<div id="cakeErr53d2d78b51681-trace" class="cake-stack-trace" style="display: none;"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53d2d78b51681-code').style.display = (document.getElementById('cakeErr53d2d78b51681-code').style.display == 'none' ? '' : 'none')">Code</a> <a href="javascript:void(0);" onclick="document.getElementById('cakeErr53d2d78b51681-context').style.display = (document.getElementById('cakeErr53d2d78b51681-context').style.display == 'none' ? '' : 'none')">Context</a><pre id="cakeErr53d2d78b51681-code" class="cake-code-dump" style="display: none;"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//see&nbsp;__set&nbsp;and&nbsp;__get,&nbsp;on&nbsp;all&nbsp;assignments&nbsp;clear&nbsp;cache,&nbsp;not&nbsp;needed&nbsp;on&nbsp;direct&nbsp;set&nbsp;through&nbsp;__set</span></span></code>
+<code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_prop_cache</span><span style="color: #007700">[</span><span style="color: #DD0000">"color"</span><span style="color: #007700">]&nbsp;=&nbsp;</span><span style="color: #0000BB">null</span><span style="color: #007700">;</span></span></code>
+<span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_props</span><span style="color: #007700">[</span><span style="color: #DD0000">"color"</span><span style="color: #007700">]&nbsp;=&nbsp;</span><span style="color: #0000BB">$col</span><span style="color: #007700">[</span><span style="color: #DD0000">"hex"</span><span style="color: #007700">];</span></span></code></span></pre><pre id="cakeErr53d2d78b51681-context" class="cake-context" style="display: none;">$colour = &#039;transparent&#039;
+$col = &#039;transparent&#039;</pre><pre class="stack-trace">Style::set_color() - APP\Vendor\dompdf\include\style.cls.php, line 1418
+Style::__set() - APP\Vendor\dompdf\include\style.cls.php, line 682
+Stylesheet::_parse_properties() - APP\Vendor\dompdf\include\stylesheet.cls.php, line 1299
+Stylesheet::_parse_sections() - APP\Vendor\dompdf\include\stylesheet.cls.php, line 1327
+Stylesheet::_parse_css() - APP\Vendor\dompdf\include\stylesheet.cls.php, line 1077
+Stylesheet::load_css() - APP\Vendor\dompdf\include\stylesheet.cls.php, line 252
+DOMPDF::_process_html() - APP\Vendor\dompdf\include\dompdf.cls.php, line 605
+DOMPDF::render() - APP\Vendor\dompdf\include\dompdf.cls.php, line 696
+include - APP\View\Layouts\pdf\pdf.ctp, line 7
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+View::render() - CORE\Cake\View\View.php, line 470
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110</pre></div></pre><pre class="cake-error"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53d2d78b5da82-trace').style.display = (document.getElementById('cakeErr53d2d78b5da82-trace').style.display == 'none' ? '' : 'none');"><b>Warning</b> (2)</a>: Illegal string offset 'hex' [<b>APP\Vendor\dompdf\include\style.cls.php</b>, line <b>1418</b>]<div id="cakeErr53d2d78b5da82-trace" class="cake-stack-trace" style="display: none;"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53d2d78b5da82-code').style.display = (document.getElementById('cakeErr53d2d78b5da82-code').style.display == 'none' ? '' : 'none')">Code</a> <a href="javascript:void(0);" onclick="document.getElementById('cakeErr53d2d78b5da82-context').style.display = (document.getElementById('cakeErr53d2d78b5da82-context').style.display == 'none' ? '' : 'none')">Context</a><pre id="cakeErr53d2d78b5da82-code" class="cake-code-dump" style="display: none;"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//see&nbsp;__set&nbsp;and&nbsp;__get,&nbsp;on&nbsp;all&nbsp;assignments&nbsp;clear&nbsp;cache,&nbsp;not&nbsp;needed&nbsp;on&nbsp;direct&nbsp;set&nbsp;through&nbsp;__set</span></span></code>
+<code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_prop_cache</span><span style="color: #007700">[</span><span style="color: #DD0000">"color"</span><span style="color: #007700">]&nbsp;=&nbsp;</span><span style="color: #0000BB">null</span><span style="color: #007700">;</span></span></code>
+<span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_props</span><span style="color: #007700">[</span><span style="color: #DD0000">"color"</span><span style="color: #007700">]&nbsp;=&nbsp;</span><span style="color: #0000BB">$col</span><span style="color: #007700">[</span><span style="color: #DD0000">"hex"</span><span style="color: #007700">];</span></span></code></span></pre><pre id="cakeErr53d2d78b5da82-context" class="cake-context" style="display: none;">$colour = &#039;inherit&#039;
+$col = &#039;inherit&#039;</pre><pre class="stack-trace">Style::set_color() - APP\Vendor\dompdf\include\style.cls.php, line 1418
+Style::__set() - APP\Vendor\dompdf\include\style.cls.php, line 682
+Stylesheet::_parse_properties() - APP\Vendor\dompdf\include\stylesheet.cls.php, line 1299
+Stylesheet::_parse_sections() - APP\Vendor\dompdf\include\stylesheet.cls.php, line 1327
+Stylesheet::_parse_css() - APP\Vendor\dompdf\include\stylesheet.cls.php, line 1077
+Stylesheet::load_css() - APP\Vendor\dompdf\include\stylesheet.cls.php, line 252
+DOMPDF::_process_html() - APP\Vendor\dompdf\include\dompdf.cls.php, line 605
+DOMPDF::render() - APP\Vendor\dompdf\include\dompdf.cls.php, line 696
+include - APP\View\Layouts\pdf\pdf.ctp, line 7
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+View::render() - CORE\Cake\View\View.php, line 470
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110</pre></div></pre><pre class="cake-error"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53d2d78b7bf53-trace').style.display = (document.getElementById('cakeErr53d2d78b7bf53-trace').style.display == 'none' ? '' : 'none');"><b>Warning</b> (2)</a>: Illegal string offset 'hex' [<b>APP\Vendor\dompdf\include\style.cls.php</b>, line <b>1418</b>]<div id="cakeErr53d2d78b7bf53-trace" class="cake-stack-trace" style="display: none;"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53d2d78b7bf53-code').style.display = (document.getElementById('cakeErr53d2d78b7bf53-code').style.display == 'none' ? '' : 'none')">Code</a> <a href="javascript:void(0);" onclick="document.getElementById('cakeErr53d2d78b7bf53-context').style.display = (document.getElementById('cakeErr53d2d78b7bf53-context').style.display == 'none' ? '' : 'none')">Context</a><pre id="cakeErr53d2d78b7bf53-code" class="cake-code-dump" style="display: none;"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//see&nbsp;__set&nbsp;and&nbsp;__get,&nbsp;on&nbsp;all&nbsp;assignments&nbsp;clear&nbsp;cache,&nbsp;not&nbsp;needed&nbsp;on&nbsp;direct&nbsp;set&nbsp;through&nbsp;__set</span></span></code>
+<code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_prop_cache</span><span style="color: #007700">[</span><span style="color: #DD0000">"color"</span><span style="color: #007700">]&nbsp;=&nbsp;</span><span style="color: #0000BB">null</span><span style="color: #007700">;</span></span></code>
+<span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_props</span><span style="color: #007700">[</span><span style="color: #DD0000">"color"</span><span style="color: #007700">]&nbsp;=&nbsp;</span><span style="color: #0000BB">$col</span><span style="color: #007700">[</span><span style="color: #DD0000">"hex"</span><span style="color: #007700">];</span></span></code></span></pre><pre id="cakeErr53d2d78b7bf53-context" class="cake-context" style="display: none;">$colour = &#039;rgba(255, 255, 255, 0.75)&#039;
+$col = &#039;#000000&#039;</pre><pre class="stack-trace">Style::set_color() - APP\Vendor\dompdf\include\style.cls.php, line 1418
+Style::__set() - APP\Vendor\dompdf\include\style.cls.php, line 682
+Stylesheet::_parse_properties() - APP\Vendor\dompdf\include\stylesheet.cls.php, line 1299
+Stylesheet::_parse_sections() - APP\Vendor\dompdf\include\stylesheet.cls.php, line 1327
+Stylesheet::_parse_css() - APP\Vendor\dompdf\include\stylesheet.cls.php, line 1077
+Stylesheet::load_css() - APP\Vendor\dompdf\include\stylesheet.cls.php, line 252
+DOMPDF::_process_html() - APP\Vendor\dompdf\include\dompdf.cls.php, line 605
+DOMPDF::render() - APP\Vendor\dompdf\include\dompdf.cls.php, line 696
+include - APP\View\Layouts\pdf\pdf.ctp, line 7
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+View::render() - CORE\Cake\View\View.php, line 470
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110</pre></div></pre><pre class="cake-error"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53d2d78b9d746-trace').style.display = (document.getElementById('cakeErr53d2d78b9d746-trace').style.display == 'none' ? '' : 'none');"><b>Warning</b> (2)</a>: Illegal string offset 'hex' [<b>APP\Vendor\dompdf\include\style.cls.php</b>, line <b>1418</b>]<div id="cakeErr53d2d78b9d746-trace" class="cake-stack-trace" style="display: none;"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53d2d78b9d746-code').style.display = (document.getElementById('cakeErr53d2d78b9d746-code').style.display == 'none' ? '' : 'none')">Code</a> <a href="javascript:void(0);" onclick="document.getElementById('cakeErr53d2d78b9d746-context').style.display = (document.getElementById('cakeErr53d2d78b9d746-context').style.display == 'none' ? '' : 'none')">Context</a><pre id="cakeErr53d2d78b9d746-code" class="cake-code-dump" style="display: none;"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//see&nbsp;__set&nbsp;and&nbsp;__get,&nbsp;on&nbsp;all&nbsp;assignments&nbsp;clear&nbsp;cache,&nbsp;not&nbsp;needed&nbsp;on&nbsp;direct&nbsp;set&nbsp;through&nbsp;__set</span></span></code>
+<code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_prop_cache</span><span style="color: #007700">[</span><span style="color: #DD0000">"color"</span><span style="color: #007700">]&nbsp;=&nbsp;</span><span style="color: #0000BB">null</span><span style="color: #007700">;</span></span></code>
+<span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_props</span><span style="color: #007700">[</span><span style="color: #DD0000">"color"</span><span style="color: #007700">]&nbsp;=&nbsp;</span><span style="color: #0000BB">$col</span><span style="color: #007700">[</span><span style="color: #DD0000">"hex"</span><span style="color: #007700">];</span></span></code></span></pre><pre id="cakeErr53d2d78b9d746-context" class="cake-context" style="display: none;">$colour = &#039;inherit&#039;
+$col = &#039;inherit&#039;</pre><pre class="stack-trace">Style::set_color() - APP\Vendor\dompdf\include\style.cls.php, line 1418
+Style::__set() - APP\Vendor\dompdf\include\style.cls.php, line 682
+Stylesheet::_parse_properties() - APP\Vendor\dompdf\include\stylesheet.cls.php, line 1299
+Stylesheet::_parse_sections() - APP\Vendor\dompdf\include\stylesheet.cls.php, line 1327
+Stylesheet::_parse_css() - APP\Vendor\dompdf\include\stylesheet.cls.php, line 1077
+Stylesheet::load_css() - APP\Vendor\dompdf\include\stylesheet.cls.php, line 252
+DOMPDF::_process_html() - APP\Vendor\dompdf\include\dompdf.cls.php, line 605
+DOMPDF::render() - APP\Vendor\dompdf\include\dompdf.cls.php, line 696
+include - APP\View\Layouts\pdf\pdf.ctp, line 7
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+View::render() - CORE\Cake\View\View.php, line 470
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110</pre></div></pre><pre class="cake-error"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53d2d78b9f91e-trace').style.display = (document.getElementById('cakeErr53d2d78b9f91e-trace').style.display == 'none' ? '' : 'none');"><b>Warning</b> (2)</a>: Illegal string offset 'hex' [<b>APP\Vendor\dompdf\include\style.cls.php</b>, line <b>1418</b>]<div id="cakeErr53d2d78b9f91e-trace" class="cake-stack-trace" style="display: none;"><a href="javascript:void(0);" onclick="document.getElementById('cakeErr53d2d78b9f91e-code').style.display = (document.getElementById('cakeErr53d2d78b9f91e-code').style.display == 'none' ? '' : 'none')">Code</a> <a href="javascript:void(0);" onclick="document.getElementById('cakeErr53d2d78b9f91e-context').style.display = (document.getElementById('cakeErr53d2d78b9f91e-context').style.display == 'none' ? '' : 'none')">Context</a><pre id="cakeErr53d2d78b9f91e-code" class="cake-code-dump" style="display: none;"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="color: #FF8000">//see&nbsp;__set&nbsp;and&nbsp;__get,&nbsp;on&nbsp;all&nbsp;assignments&nbsp;clear&nbsp;cache,&nbsp;not&nbsp;needed&nbsp;on&nbsp;direct&nbsp;set&nbsp;through&nbsp;__set</span></span></code>
+<code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_prop_cache</span><span style="color: #007700">[</span><span style="color: #DD0000">"color"</span><span style="color: #007700">]&nbsp;=&nbsp;</span><span style="color: #0000BB">null</span><span style="color: #007700">;</span></span></code>
+<span class="code-highlight"><code><span style="color: #000000"><span style="color: #0000BB">&nbsp;&nbsp;&nbsp;&nbsp;$this</span><span style="color: #007700">-&gt;</span><span style="color: #0000BB">_props</span><span style="color: #007700">[</span><span style="color: #DD0000">"color"</span><span style="color: #007700">]&nbsp;=&nbsp;</span><span style="color: #0000BB">$col</span><span style="color: #007700">[</span><span style="color: #DD0000">"hex"</span><span style="color: #007700">];</span></span></code></span></pre><pre id="cakeErr53d2d78b9f91e-context" class="cake-context" style="display: none;">$colour = &#039;inherit&#039;
+$col = &#039;inherit&#039;</pre><pre class="stack-trace">Style::set_color() - APP\Vendor\dompdf\include\style.cls.php, line 1418
+Style::__set() - APP\Vendor\dompdf\include\style.cls.php, line 682
+Stylesheet::_parse_properties() - APP\Vendor\dompdf\include\stylesheet.cls.php, line 1299
+Stylesheet::_parse_sections() - APP\Vendor\dompdf\include\stylesheet.cls.php, line 1327
+Stylesheet::_parse_css() - APP\Vendor\dompdf\include\stylesheet.cls.php, line 1077
+Stylesheet::load_css() - APP\Vendor\dompdf\include\stylesheet.cls.php, line 252
+DOMPDF::_process_html() - APP\Vendor\dompdf\include\dompdf.cls.php, line 605
+DOMPDF::render() - APP\Vendor\dompdf\include\dompdf.cls.php, line 696
+include - APP\View\Layouts\pdf\pdf.ctp, line 7
+View::_evaluate() - CORE\Cake\View\View.php, line 929
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+View::render() - CORE\Cake\View\View.php, line 470
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 194
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 162
+[main] - APP\webroot\index.php, line 110</pre></div></pre>

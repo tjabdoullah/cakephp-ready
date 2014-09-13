@@ -1,0 +1,25 @@
+.right{
+   text-align: right;
+}
+
+.center{
+   text-align: center;
+}
+
+.disabled{
+  display: none;
+}
+
+.bold{
+   font-weight: bold;
+}
+
+.round{
+  border-radius: 12px;
+  background-clip: padding-box;
+}
+
+.round-3{
+  border-radius: 3px;
+  background-clip: padding-box;
+}
